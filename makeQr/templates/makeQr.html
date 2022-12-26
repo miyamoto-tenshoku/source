@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/makeQr.css') }}">
+    <title>QRコード作成</title>
+</head>
+<body>
+    <form action="" method="post" id="qr_form">
+        <input type="text" name="qr_str" id="qr_str" value="{{ qr_str }}">
+        <button type="submit">QRコード作成</button>
+    </form>
+    {% if  qr_str != '' %}
+        <div id="qr_img">
+            <img src="{{qr_b64data}}" alt="QRコード">
+        </div>
+    {% endif %}
+</body>
+</html>

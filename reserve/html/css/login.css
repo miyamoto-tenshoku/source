@@ -1,0 +1,33 @@
+#login_form{
+    border: 0.5px black solid;
+    width: 250px;
+    margin-top: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+#login_form input{
+    border: 0.5px black solid;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 3px;
+}
+
+#login_form button{
+    display: block;
+    text-align: center;
+    border: 0.5px black solid;
+    width: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 3px;
+}
+
+#err_msg{
+    width: 250px;
+    color: rgb(255, 50, 50);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}

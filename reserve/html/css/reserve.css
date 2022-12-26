@@ -1,0 +1,155 @@
+#page_title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    font-size: 20px;
+}
+
+#explanation{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#week_link{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    margin-bottom: 5px;
+}
+
+a{
+    text-decoration: underline;
+}
+
+#reservation_table{
+    display: grid;
+    grid-template-columns: 30px repeat(5, 1fr);
+    grid-auto-rows: 14px;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 15px;
+}
+
+.cell{
+    margin: -0.25px;
+}
+
+.top_label{
+    text-align: center;
+    line-height: 24.5px;
+    border: 0.5px black solid;
+}
+
+.left_label{
+    text-align: right;
+    line-height: 24.5px;
+    padding-right: 5px;
+}
+
+.emp_00, .old_00{
+    border-top: 0.5px black solid;
+    border-left: 0.5px black solid;
+    border-right: 0.5px black solid;
+}
+
+.emp_30, .old_30{
+    border-top: 0.5px black dotted;
+    border-bottom: 0.5px black solid;
+    border-left: 0.5px black solid;
+    border-right: 0.5px black solid;
+}
+
+.old_00, .old_30{
+    background-color: rgba(157, 157, 157, 0.25);
+}
+
+#under_button{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    gap: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+#logout_link{
+    text-align: center;
+}
+
+.full{
+    border: 0.5px black solid;
+    background-color: #E47408;
+}
+
+.detail_btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+form{
+    position: absolute;
+    top: 200px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 20;
+    width: 300px;
+    padding: 15px;
+}
+
+#reserve_form{
+    background-color: #8FCCA5;
+}
+
+.detail_form{
+    background-color: #E47408;
+}
+
+#form_bg{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(109, 109, 109, 0.378);
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 15px;
+}
+
+button{
+    padding: 3px;
+    border: 0.5px black solid;
+}
+
+textarea{
+    padding: 5px;
+    width: 100%;
+    height: 75px;
+    border: 0.5px black solid;
+    resize: none;
+}
+
+.item{
+    margin-bottom: 10px;
+}
+
+.item_body{
+    padding-left: 12px;
+}
+
+.disp_memo{
+    white-space: pre-wrap;
+    overflow-y: auto;
+    width: 100%;
+    height: 75px;
+}

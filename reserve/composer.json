@@ -1,0 +1,8 @@
+{
+    "autoload": {
+        "psr-4": {
+            "Lib\\": "Lib",
+            "Conf\\": "Conf"
+        }
+    }
+}
