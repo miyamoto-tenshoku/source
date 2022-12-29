@@ -130,7 +130,12 @@
                                 </form>
                             EOM;
                         } else {
-                            echo '別ユーザ予約済み';
+                            echo <<< EOM
+                            <div class="others">
+                                別ユーザ予約済み
+                            </div>
+                            EOM;
+
                         }
 
                         echo '</div>';
