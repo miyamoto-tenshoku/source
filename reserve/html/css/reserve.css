@@ -84,16 +84,22 @@ a{
 
 .full{
     border: 0.5px black solid;
-    background-color: #545454;
-    padding: 5px;
 }
 
 .detail{
+    background-color: #E47408;
     padding: 5px;
     width: 100%;
     height: 100%;
     overflow: hidden;
     cursor: pointer;
+}
+
+.others{
+    background-color: #949494;
+    padding: 5px;
+    width: 100%;
+    height: 100%;
 }
 
 form{
