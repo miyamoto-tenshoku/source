@@ -92,9 +92,8 @@
                                 $e = 'Lib\lib::e';
 
                                 echo <<< EOM
-                                <div  class="detail_btn">
-                                    予約済&nbsp;
-                                    <button onclick="openForm('{$e($form_id)}')">詳細</button>
+                                <div class="detail" onclick="openForm('{$e($form_id)}')">
+                                    {$e($schedules[$index]['memo'])}
                                 </div>
 
                                 <form action="reservePost.php" method="post" class="detail_form" id="{$e($form_id)}" hidden>
