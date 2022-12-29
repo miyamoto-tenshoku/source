@@ -31,7 +31,7 @@ class db {
         }
     }
 
-    //ユーザ名とパスワードを登録されているものと合致するgあチェックする関数
+    //ユーザ名とパスワードが登録されているものと合致するかチェックする関数
     //合致した場合はuser_idを、そうでない場合はfalseを返す
     function passCheck(string $user_name, string $password): bool|int{
         try{
