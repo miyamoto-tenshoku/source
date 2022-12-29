@@ -39,6 +39,8 @@ webサーバ：nginx
 
 このサイトはphpとjavascriptを用いて作成しました。
 
+IPA「安全なウェブサイトの作り方」に沿ってセキュリティ対策を実装しています。
+
 ## フォルダstreamについて
 [リアルタイム顔認識アプリ](https://miyamoto-tenshoku.site/stream/)のソースコードです。
 
