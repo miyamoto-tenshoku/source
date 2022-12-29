@@ -84,7 +84,8 @@ a{
 
 .full{
     border: 0.5px black solid;
-    background-color: #E47408;
+    background-color: #545454;
+    padding: 5px;
 }
 
 .detail{
